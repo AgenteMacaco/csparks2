@@ -1,4 +1,4 @@
-from app_macaco import app_macaco
+from app import app
 
 def test_add():
-    assert app_macaco.add(1,1) == 2
+    assert app.add(1,1) == 2
